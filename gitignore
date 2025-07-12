@@ -1,0 +1,84 @@
+
+# --------------------------
+# Python
+# --------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --------------------------
+# Jupyter / IPython
+# --------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# --------------------------
+# Virtual Environments
+# --------------------------
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --------------------------
+# Spyder
+# --------------------------
+.spyproject/
+.spyderproject
+
+# --------------------------
+# VS Code
+# --------------------------
+.vscode/
+
+# --------------------------
+# System
+# --------------------------
+.DS_Store
+Thumbs.db
+
+# --------------------------
+# Logs and Temp
+# --------------------------
+*.log
+*.tmp
+
+# --------------------------
+# Model Checkpoints / Outputs
+# --------------------------
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.tflite
+
+# --------------------------
+# Dataset Images
+# --------------------------
+train/blur/
+train/sharp/
+test/blur/
+test/sharp/
+validation/blur/
+validation/sharp/
+
+# If you keep datasets in a folder:
+datasets/
+data/
+*.zip
+*.tar.gz
+*.npy
+*.npz
+
+# --------------------------
+# Output / Results
+# --------------------------
+results/
+outputs/
+*.csv
+*.png
+*.jpg
+*.jpeg
